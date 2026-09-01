@@ -1,0 +1,61 @@
+h1 {
+    color: blue;
+}
+h2 {
+    color: green;
+}
+h3 {
+    color: red;
+}
+h4 {
+    color: brown;
+}
+
+p {
+    color: rgb(112, 59, 8);
+}
+footer {
+    color: purple;
+}
+/* ID */
+#inaddition {
+    color:lime;
+    background-color: #111110f9;
+}
+/* Classes */
+.courses {
+    color: blue;
+    background-color: #ffd000;
+}
+/* div */
+.list {
+    color: purple;
+
+}
+/* span */
+.words {
+    color: blue;
+
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: #00ffff;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: green;
+}   
