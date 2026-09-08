@@ -1,0 +1,68 @@
+body {
+    background-color: #999999;
+    background-image: url(Somethingspecial.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+main {
+    background-color: #00f;
+   
+}
+
+.imgbox {
+    border: 2px solid red;
+    padding: 10px;
+    margin: 20;
+    background-color: blue;
+}
+
+.customtext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.fontcombined {
+  font: bold 12px Courier, monospace;
+}
+
+.boxmodel {
+  border: 2px solid #0000FF;
+  padding: 20px;
+  margin: 10px 10px;
+  background-color: green;
+
+}
+
+.zeroout {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  border: 1px solid black;
+}
+.textright {
+  text-align: right;
+}
+
+.textleft {
+  text-align: left;
+  letter-spacing: 20px;
+}
+
+.textcenter {
+  text-align: center;
+  line-height: 48px;
+}
+
+.textjustify {
+  text-align: justify;
+}
