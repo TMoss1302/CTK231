@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial Helvetica, sans-serif;
+    background-image: url(Roxxy.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: normal;
+    color: orange;
+}
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h3 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+h4 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.imgbox {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20;
+    background-color: yellow;
+}
+
+p {
+    color: pink;
+}
+footer {
+    color: purple;
+}
+/* ID */
+#inaddition {
+    color:red;
+    background-color: #111110f9;
+}
+/* Classes */
+.courses {
+    color: red;
+    background-color: #ffd000;
+}
+/* div */
+.list {
+    color: green;
+
+}
+/* span */
+.words {
+    color: red;
+
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color: #00ffff;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: green;
+}   
+
+.centertext {
+    text-align: center;
+}
+
+.justifytext {
+    text-align: justify;
+}
