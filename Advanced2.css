@@ -1,0 +1,51 @@
+body {
+    background-color: #999999;
+}
+
+#wrapper {
+    background-color: white;
+    border: 1px solid #000000;
+    width: 1200px;
+    margin: 1em auto;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto 75px;
+   
+}
+
+.floatimg {
+    float: left;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+
+.clearfloat {
+    clear: both;
+}
+
+header { 
+    border: 1px solid red;
+    grid-column: span 12;
+    background-color: red;
+    padding-left: 24px;
+}
+
+nav { 
+    border: 1px solid blue;
+    grid-column: span 3;
+    background-color: yellow;
+}
+
+main { 
+    border: 1px solid green;
+    grid-column: span 9;
+    padding-left: 24px;
+}
+
+footer { 
+    border: 1px solid orange;
+    grid-column: span 12;
+    background-color: red;
+    padding-left: 24px;
+}
