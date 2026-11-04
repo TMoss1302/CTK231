@@ -21,9 +21,19 @@ nav {
   border-right: 3px solid red;
   padding-right: 20px;
   margin-left: -20px;
+  transition: all 1s;
   
 }
 
+nav p {
+  font-size: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-family: "Irish Grover", system-ui;
+  font-weight: bold;
+  text-align: center;
+}
 
 
 nav li {
@@ -43,21 +53,27 @@ nav li a {
   text-decoration: none;
   text-align: center;
   flex-direction: column;
-  font-size: 20px;
-  padding-top: 0;
-  margin-top: 0;
-  margin-bottom: 40px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  transition: all 2s;
+  width: 75%;
+  
 
 }
 nav li a :hover {
   background-image: linear-gradient(red, orange, lightgray, gray, red, red, orange, lightgray, gray, red);
-  
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  width: 80x;
+  color: white;
+  display: block;
 }
+
 
 nav li a img {
   margin-bottom: -50px;
   display: block;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
 
 
 }
@@ -68,10 +84,13 @@ header {
   background-color: red;
   display: block;
   height: fit-content;
- 
+  font-family: "Irish Grover", system-ui;
+   border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  box-shadow: -10px 10px 10px #999; /* x, y, blur, color */
 }
 h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Irish Grover", system-ui;
   font-size: 56px;
   text-align: center;
   display: block;
@@ -83,34 +102,19 @@ h1 {
 .socials {
   grid-column: 12 / span 1;
   grid-row: 1;
-  margin-top: -20px;
-
-  
+ 
 }
 
-.socials ul {
-  text-decoration: none;
-  list-style: none;
-   display: block;
-}
+.socials a{
 
-
-.socials img {
- width: auto;
- height: auto;
- margin-left: -20px;
-padding-bottom: 0;
- display: block;
+  color: red;
+  font-size: 60px;
 }
 
 .socials :hover {
-  background-image: linear-gradient(red, red, red, black, black, black);
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  
-
-
+  background-image: linear-gradient(red, red, red, black, black, black, white);
+font-size: 80px;
+transition: all 1s;
 }
 
 main {
@@ -127,10 +131,12 @@ main {
   margin-right: 20px;
   margin-bottom: 10px;
   margin-top: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
 }
 
 main h1 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Irish Grover", system-ui;
   font-size: 48px;
   text-align: left;
   display: block;
@@ -138,9 +144,12 @@ main h1 {
 }
 
 main p {
-  margin-top: 0x;
-  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: -10;
+  font-family: "Bubblegum Sans", sans-serif;
   text-align: justify;
+  background-color: white;
+  font-size: 18px;
 
 
   }
@@ -150,22 +159,34 @@ main p {
   grid-row: 3;
   display: block;
   background-color: red;
-  border-radius: 40px;
+  border-radius: 48px;
   width: 150px;
   height: 200px;
-  padding: 5px;
+  padding: 2px;
   color: black;
   margin-top: 20px;
+  align-self: center;
+  align-content: center;
+  box-shadow: -10px 10px 10px #999; /* x, y, blur, color */
 
 
 
 }
 
 .contact h2 {
-  font-size: 18px;
+  font-size: 22px;
+  font-family: "Irish Grover", system-ui;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  text-align: center;
 }
 .contact p {
   font-size: 14px;
+  font-family: "Bubblegum Sans", sans-serif;
+  margin-top: 0;
+  padding: 2px;
+  text-align: center;
 }
 li img {
   padding-top: 0px;
@@ -178,13 +199,17 @@ li img {
   text-align: justify;
   margin-top: 0;
   padding-top: 0;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Irish Grover", system-ui;
+  font-size: 20px;
 }
 
 .main2 p {
   font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-size: 16px;
+  background-color: white;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .main3 {
@@ -199,16 +224,17 @@ li img {
   text-align: left;
   padding: 0, 10px;
   margin: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Bubblegum Sans", sans-serif;
   font-size: 16px;
 }
 
 .main3 a {
   color: red;
   text-decoration: none;
+  
 }
 .main3 a:hover {
-  color: green;
+  color: white;
   text-decoration: underline;
 }
 .main3 img {
@@ -216,28 +242,55 @@ li img {
 }
 .main3 h2 {
   display: block;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: "Irish Grover", system-ui;
   color: black;
   text-decoration: none;
   background-color: red;
   padding: 10px;
   margin: 5px;
-  font-weight: normal;
+  font-weight: bold;
   text-align: center;
+  font-size: 22px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+}
+
+.main3 h2 a {
+  color: black;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+  margin: 5px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
+  
+  
+}
+
+.main3 h2 a:hover {
+  background-image: linear-gradient(red, black, lightgray, gray, red, red, black, lightgray, gray, red);
+  font-size: 12x;
+  transition: all 1s;
 }
 
 footer {
   grid-column: 2 / span 10;
   grid-row: 6;
   background-color: red;
-
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 10px;
 }
 
 footer p {
    display: block;
 text-align: right;
 font-size: 28px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-family: "Irish Grover", system-ui;
 padding: 0;
 margin: 0;
 }
