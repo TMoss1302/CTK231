@@ -216,7 +216,7 @@ li img {
   grid-column: 2/ span 10;
   grid-row: 4;
   display: flex;
- padding-right: 400px;
+ padding: 0;
  
 }
 
@@ -241,13 +241,16 @@ li img {
   padding: 5px;
 }
 .main3 h2 {
-  display: block;
+  display: grid;
   font-family: "Irish Grover", system-ui;
   color: black;
   text-decoration: none;
   background-color: red;
-  padding: 10px;
-  margin: 5px;
+  padding-right: 1px;
+  margin-right: -3px;
+  margin-left: -3px;
+  margin-top: 2px;
+  margin-bottom: 2px;
   font-weight: bold;
   text-align: center;
   font-size: 22px;
@@ -257,11 +260,11 @@ li img {
 
 .main3 h2 a {
   color: black;
-  display: flex;
+  display: block;
   text-decoration: none;
   text-align: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 0;
   margin: 5px;
   font-weight: bold;
   text-align: center;
@@ -293,4 +296,34 @@ font-size: 28px;
 font-family: "Irish Grover", system-ui;
 padding: 0;
 margin: 0;
+}
+
+#myCarousel {
+  margin: 0;
+
+}
+
+#myCarousel .f-carousel__slide {
+  text-align: center;
+  padding: 2px;
+  background-image: linear-gradient(red, black, lightgray, gray, red, red, black, lightgray, gray, red);
+}
+
+.f-carousel {
+  --f-arrow-pos: 10px;
+
+  --f-arrow-width: 40px;
+  --f-arrow-height: 20px;
+
+  --f-arrow-svg-width: 12px;
+  --f-arrow-svg-height: 12px;
+  --f-arrow-svg-stroke-width: 2.5;
+
+  --f-arrow-color: #090909;
+  --f-arrow-shadow: 0 6px 12px -2px rgb(10, 10, 10), 0 3px 7px -3px rgba(240, 23, 23, 0.955);
+
+  --f-arrow-border-radius: 50%;
+  --f-arrow-bg: #07070715;
+  --f-arrow-hover-bg: #f10d0d;
+  --f-arrow-active-bg: #f0f0f0;
 }
